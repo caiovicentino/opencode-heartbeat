@@ -1,0 +1,31 @@
+{
+  "name": "opencode-heartbeat",
+  "version": "0.1.0",
+  "description": "OpenClaw-style heartbeat for OpenCode — periodic autonomous pulses in your session, worker waves with a boss postbox, and an eval gate that verifies instead of trusting.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiovicentino/opencode-heartbeat.git"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "heartbeat",
+    "ai-agents",
+    "multi-agent",
+    "orchestration",
+    "autonomous-agents"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.opencode/node_modules/
+.opencode/state/
+.opencode/plugins/probe*
+tests/tmp-*/
+.DS_Store
+*.log
+.env
+.env.*
+dist/
+tmp/
